@@ -234,7 +234,7 @@ li {
 /*Inicio*/
 
 
-.sexsect {
+.SectionSix {
 
     background: url('../assets/img/bg_whoIs.png');
     background-size: cover;
@@ -245,18 +245,18 @@ li {
     color: #d4d4d4;
 }
 
-.sexsec {
-    width: 800px;
+.SixCont {
+    width: 80vw;
 }
 
-.sexcont h2 {
+.SixCont h2 {
     font-size: 22px;
     font-weight: 300;
     letter-spacing: 1px;
     margin-bottom: 30px;
 }
 
-.sexcont span {
+.SixCont span {
     border-bottom: 2px solid white;
     padding-bottom: 4px;
     width: 36px;
@@ -264,33 +264,33 @@ li {
     margin-right: 20px;
 }
 
-.sextex {
+.textSix {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
 }
 
-.sexp1 p,
-.sexp2 p {
+.Sp1 p,
+.Sp2 p {
     font-size: 11px;
     line-height: 1.5;
     margin-bottom: 12px;
 }
 
-.seximg {
+.sixImg {
     display: flex;
     gap: 12px;
     margin-top: 35px;
     flex-wrap: wrap;
 }
 
-.seximg img {
+.sixImg img {
     width: 50px;
     object-fit: contain;
     transition: transform 0.2s ease;
 }
 
-.seximg img:hover {
+.sixImg img:hover {
     transform: scale(1.2);
 }
 
@@ -726,50 +726,37 @@ footer div {
         align-items: center;
     }
 
-    .text h2,
-    .text hr,
-    .SectionEight form,
-    .message {
-        margin-right: 70px;
-    }
-
-    .formOne {
-        margin-left: 200px;
+    form {
+        column-gap: 0;
+        row-gap: 20px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
 
     .formTwo {
-        max-width: 300px;
-        margin-top: 170px;
-        margin-left: -400px;
+        grid-column: 1/2;
+        grid-row: 2/3;
     }
 
     .formThree {
-        margin-left: 200px;
+        grid-row: 3/4;
+        margin-top: 0;
     }
 
     .formFour {
-        margin-top: 80px;
-        margin-left: -398px;
-        font-size: 12px;
+        grid-column: 1/2;
+        grid-row: 4/5;
+        margin-top: 0;
     }
 
     .message {
-        margin-top: -600px;
-        margin-right: 30px;
+        margin: 0;
     }
 
     .message textarea {
-        padding: 10px 20px;
+        padding: 0;
     }
 
-    .SectionEight p {
-        font-size: 8px;
-    }
-
-    .message button {
-        padding: 10px 50px;
-        font-size: 10px;
-    }
 
     footer {
         flex-direction: column;
@@ -859,6 +846,11 @@ footer div {
         margin-right: 70px;
     }
 
+    .SectionFive img {
+        top: 42px;
+        right: 60px;
+    }
+
     .SectionSix img {
         width: 25px;
         top: 10px;
@@ -889,7 +881,7 @@ footer div {
     }
 
     .SectionEight p {
-        font-size: 6px;
+        font-size: 10px;
     }
 
     .message button {
@@ -897,7 +889,22 @@ footer div {
         font-size: 8px;
     }
 
-    footer {
+    form {
+        grid-template-rows: repeat(4, 15vh);
+    }
+
+    .message {
+        padding-top: 8vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 80vw;
+    }
+
+.textSix {
+    grid-template-columns: 80vw;
+}
+.footer {
         padding: 40px 20px;
     }
 }
