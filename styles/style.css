@@ -1,0 +1,903 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Sans", sans-serif;
+}
+
+header {
+    background-image: url(../assets/img/Fondo.png);
+    background-size: cover;
+    height: 48vw;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00000085;
+    height: 120px;
+    color: white;
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+nav span {
+    color: #63c1ff;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#bttn {
+    color: #63c1ff;
+    border: 2px solid #63c1ff;
+    padding: 5px 15px;
+}
+
+.SectionOne {
+    height: 35vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SectionOne p {
+    background-color: #00000085;
+    padding: 0 10px;
+    margin: 10px 0;
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.SectionTwo {
+    background-color: #5ac8fa;
+    padding: 100px 180px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: white;
+}
+
+.SectionTwo div {
+    width: 260px;
+}
+
+.SectionTwo img {
+    width: 40px;
+    margin-bottom: 20px;
+}
+
+.coffee img {
+    width: 28px;
+    height: 35px;
+}
+
+.SectionTwo h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.SectionTwo p {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.SectionThree {
+    padding: 20px 180px;
+    min-height: 100vh;
+}
+
+.SectionThree nav {
+    background-color: #fff;
+    display: flex;
+    gap: 25px;
+    margin-bottom: 30px;
+}
+
+.SectionThree nav a {
+    text-decoration: none;
+    color: #555;
+    font-size: 13px;
+}
+
+.SectionThree .Port {
+    display: inline-block;
+    margin-right: auto;
+    font-size: 26px;
+    border-bottom: 1px solid #000;
+    font-weight: 200;
+    width: 35px;
+}
+
+.SectionThree .btn {
+    border: 1px solid #5ac8fa;
+    padding: 4px 10px;
+    color: #5ac8fa;
+}
+
+.SectionThree .image {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.SectionThree img {
+    width: 100%;
+    height: 200px;
+}
+
+.SectionFour {
+    padding: 70px 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 140px;
+    background: #55636B;
+    color: #fff;
+    min-height: 35vh;
+}
+
+.SectionFour h2 {
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.SectionFour hr {
+    width: 45px;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.SectionFour div p {
+    font-size: 13px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #d9d9d9;
+}
+
+.SectionFour button {
+    background: transparent;
+    border: 2px solid #8c9aa1;
+    padding: 8px 22px;
+    color: #8c9aa1;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.SectionFour img {
+    width: 480px;
+    height: 260px;
+}
+
+.SectionFive {
+    background: #51CCFF;
+    padding: 55px 180px;
+    color: #ffffff;
+    position: relative;
+}
+
+.SectionFive h2 {
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.SectionFive hr {
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 25px;
+}
+
+.SectionFive p {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 300;
+}
+
+.SectionFive strong {
+    font-weight: 600;
+}
+
+.SectionFive img {
+    position: absolute;
+    top: 50px;
+    right: 190px;
+    width: 20px;
+}
+
+
+/*Inicio*/
+
+
+.sexsect {
+
+    background: url('../assets/img/bg_whoIs.png');
+    background-size: cover;
+    background-position: center;
+    padding: 60px 0 70px;
+    display: flex;
+    justify-content: center;
+    color: #d4d4d4;
+}
+
+.sexsec {
+    width: 800px;
+}
+
+.sexcont h2 {
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.sexcont span {
+    border-bottom: 2px solid white;
+    padding-bottom: 4px;
+    width: 36px;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.sextex {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.sexp1 p,
+.sexp2 p {
+    font-size: 11px;
+    line-height: 1.5;
+    margin-bottom: 12px;
+}
+
+.seximg {
+    display: flex;
+    gap: 12px;
+    margin-top: 35px;
+    flex-wrap: wrap;
+}
+
+.seximg img {
+    width: 50px;
+    object-fit: contain;
+    transition: transform 0.2s ease;
+}
+
+.seximg img:hover {
+    transform: scale(1.2);
+}
+
+.SectionSeven {
+    padding: 55px 180px;
+    color: #515151;
+    position: relative;
+}
+
+.SectionSeven h2 {
+    font-size: 22px;
+    font-weight: 300;
+
+    color: #515151;
+}
+
+.SectionSeven hr {
+    width: 45px;
+    border: none;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 28px;
+}
+
+.SectionSeven p {
+    font-size: 22px;
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.SectionSeven span {
+    font-weight: 600;
+    color: #51CCFF;
+    font-size: 11px;
+}
+
+.SectionEight {
+    background-image: url(..//assets/img/bg_contact.png);
+    background-position: center;
+    background-size: cover;
+    padding: 100px;
+}
+
+.text h2 {
+    margin-left: 250px;
+    color: #fff;
+    font-weight: 200;
+}
+
+.text hr {
+    width: 45px;
+    margin-left: 250px;
+    margin-bottom: 50px
+}
+
+form {
+    color: #fff;
+    margin-left: 250px;
+    display: grid;
+    gap: 100px;
+
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.formOne {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.formOne input {
+    padding: 10px 80px;
+}
+
+.formTwo {
+    grid-column: 2/4;
+    grid-row: 1/2;
+    max-width: 400px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.formThree {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin-top: -40px;
+}
+
+.formThree input {
+    padding: 10px 80px;
+}
+
+.formFour {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -100px;
+    margin-top: -60px;
+    max-width: 100px;
+}
+
+.formFour ul {
+    display: inline-block;
+    font-weight: 600;
+}
+
+.formFour li {
+    display: inline-block;
+    font-weight: 600;
+}
+
+input {
+    background: transparent;
+    color: #d9d9d9;
+    border: 2px solid #fff;
+}
+
+.textarea {
+    background: transparent;
+    color: #d9d9d9;
+    border: 2px solid #fff;
+}
+
+.message {
+    color: #fff;
+    margin-left: 250px;
+    margin-top: -400px;
+}
+
+.message textarea {
+    padding: 20px 230px;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.message button {
+    padding: 15px 100px;
+    background-color: #51CCFF;
+    border: #d9d9d9;
+    color: #ffff;
+    font-weight: 800;
+}
+
+footer {
+    min-height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #40434bf8;
+    color: #fff;
+}
+
+footer div a,
+footer div p {
+    font-size: 11px;
+    color: #bebebe;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+footer div {
+    display: flex;
+}
+
+@Media (max-width: 1279px) {
+    .SectionOne {
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .SectionOne p {
+        font-size: 25px;
+    }
+
+    .SectionTwo {
+        padding: 50px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
+    }
+
+    .SectionThree {
+        padding: 20px;
+    }
+
+    .SectionThree nav {
+        font-size: 16px;
+    }
+
+    .SectionThree .image {
+        grid-template-columns: repeat(2, 1.75fr);
+        gap: 15px;
+    }
+
+    .SectionFour {
+        align-items: center;
+        gap: 40px;
+        padding: 50px 20px;
+    }
+
+    .SectionFour p {
+        font-size: 12px;
+        width: 40vw;
+    }
+
+    .SectionFour img {
+        width: 35vw;
+        height: auto;
+    }
+
+    .SectionFive {
+        padding: 40px 90px;
+    }
+
+    .SectionFive img {
+        width: 30px;
+    }
+
+    .SectionFive p {
+        font-size: 16px;
+    }
+
+    .TitleS6 h2,
+    .TitleS6 hr,
+    .SectionSix .textS6 {
+        margin-left: 180px;
+    }
+
+
+    .SectionSix img {
+        width: 40px;
+        top: 30px;
+        right: 180px;
+        margin-top: 20px;
+    }
+
+    .SectionSeven {
+        padding: 40px 90px;
+    }
+
+    .SectionSeven p {
+        font-size: 18px;
+    }
+
+    .text h2,
+    .text hr,
+    .SectionEight form,
+    .message {
+        margin-left: 60px;
+    }
+
+    .SectionEight p {
+        font-size: 12px;
+    }
+
+    .message textarea {
+        padding: 15px 150px;
+    }
+}
+
+@Media (max-width: 920px) {
+    header {
+        height: 60vw;
+    }
+
+    nav {
+        padding: 15px 0;
+        gap: 80px;
+    }
+
+    .SectionOne {
+        margin-top: 55px;
+    }
+
+    .SectionThree nav {
+
+        gap: 15px;
+    }
+
+    .SectionThree .image {
+        width: 98%;
+    }
+
+    .SectionFour h2 {
+        font-size: 20px;
+    }
+
+    .SectionFour p {
+        font-size: 10px;
+    }
+
+    .SectionFour button {
+        padding: 6px 16px;
+        font-size: 11px;
+    }
+
+    .SectionFive h2 {
+        font-size: 20px;
+    }
+
+    .SectionFive p {
+        font-size: 16px;
+    }
+
+    .TitleS6 h2 {
+        font-size: 20px;
+    }
+
+    .SectionSix img {
+        width: 30px;
+        top: 20px;
+    }
+
+    .SectionSeven h2 {
+        font-size: 20px;
+    }
+
+    .SectionSeven p {
+        font-size: 16px;
+    }
+
+    .text h2 {
+        font-size: 20px;
+    }
+
+    .text h2,
+    .text hr,
+    .SectionEight form,
+    .message {
+        margin-left: 40px;
+    }
+
+    .SectionEight p {
+        font-size: 10px;
+    }
+
+    /*no funciona nada para arreglar el desborde*/
+
+    .message textarea {
+        padding: 10px 100px;
+    }
+}
+
+@Media (max-width: 768px) {
+    header {
+        height: 70vw;
+    }
+
+    nav {
+        flex-direction: column;
+        height: auto;
+        gap: 15px;
+    }
+
+    .SectionOne {
+        margin-top: 20px;
+    }
+
+    .SectionOne p {
+        font-size: 16px;
+    }
+
+    .SectionTwo {
+        grid-template-columns: 1fr;
+        padding: 30px 20px;
+    }
+
+    .SectionThree nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .SectionThree {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SectionThree .image {
+        width: 94%;
+        height: auto;
+    }
+
+    .SectionFour {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .SectionFour div {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .SectionFour div p {
+        width: 100%;
+    }
+
+    .SectionFour img {
+        width: 70vw;
+    }
+
+    .SectionFive p {
+        font-size: 14px;
+    }
+
+    .TitleS6 h2,
+    .TitleS6 hr,
+    .textS6 {
+        margin-left: 100px;
+    }
+
+    .SectionSeven h2 {
+        font-size: 18px;
+    }
+
+    .SectionSeven p {
+        font-size: 14px;
+    }
+
+    .SectionEight {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h2,
+    .text hr,
+    .SectionEight form,
+    .message {
+        margin-right: 70px;
+    }
+
+    .formOne {
+        margin-left: 200px;
+    }
+
+    .formTwo {
+        max-width: 300px;
+        margin-top: 170px;
+        margin-left: -400px;
+    }
+
+    .formThree {
+        margin-left: 200px;
+    }
+
+    .formFour {
+        margin-top: 80px;
+        margin-left: -398px;
+        font-size: 12px;
+    }
+
+    .message {
+        margin-top: -600px;
+        margin-right: 30px;
+    }
+
+    .message textarea {
+        padding: 10px 20px;
+    }
+
+    .SectionEight p {
+        font-size: 8px;
+    }
+
+    .message button {
+        padding: 10px 50px;
+        font-size: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@Media (max-width: 480px) {
+    header {
+        height: 90vw;
+    }
+
+    nav h1 {
+        font-size: 20px;
+    }
+
+    nav a {
+        font-size: 10px;
+    }
+
+    ul {
+        gap: 15px;
+    }
+
+    .SectionOne p {
+        font-size: 12px;
+    }
+
+    .coffee img {
+        width: 30px;
+        height: 35px;
+    }
+
+    .SectionTwo div img {
+        width: 20px;
+        height: 25px;
+    }
+
+    .SectionTwo h2 {
+        font-size: 18px;
+    }
+
+    .SectionTwo p {
+        font-size: 11px;
+    }
+
+    .SectionThree .Port {
+        font-size: 20px;
+    }
+
+    .SectionThree nav a {
+        font-size: 12px;
+    }
+
+    .SectionFour button {
+        padding: 5px 12px;
+        font-size: 9px;
+    }
+
+    .SectionFive h2 {
+        font-size: 16px;
+    }
+
+    .SectionFive p {
+        font-size: 12px;
+    }
+
+    .TitleS6 h2 {
+        font-size: 16px;
+    }
+
+    .textS6 {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        margin-left: 0;
+        gap: 20px;
+    }
+
+    .textS6 .Primero,
+    .Segundo,
+    .Tercero,
+    .Redes {
+        grid-column: auto;
+        grid-row: auto;
+        text-align: center;
+        margin-right: 70px;
+    }
+
+    .SectionSix img {
+        width: 25px;
+        top: 10px;
+        right: 100px;
+    }
+
+    .SectionSeven h2,
+    .text h2 {
+        font-size: 16px;
+    }
+
+    .SectionSeven p {
+        font-size: 12px;
+    }
+
+    .text h2,
+    .text hr,
+    .SectionEight form {
+        margin-right: 40px;
+    }
+
+    .message {
+        margin-right: 40px;
+    }
+
+    .message textarea {
+        padding: 10px 0px;
+    }
+
+    .SectionEight p {
+        font-size: 6px;
+    }
+
+    .message button {
+        padding: 8px 30px;
+        font-size: 8px;
+    }
+
+    footer {
+        padding: 40px 20px;
+    }
+}
